@@ -1,5 +1,4 @@
 import React from 'react';
-import Tilt from 'react-tilt';
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
@@ -7,7 +6,6 @@ import { SectionWrapper } from '../hoc';
 import { socialMediaIcons } from '../constants';
 import { slideIn } from '../utils/motion';
 import { socialLink } from '../constants/iconsURL';
-import { code_tag } from '../assets';
 
 const Footer = () => {
 	return (
@@ -17,7 +15,7 @@ const Footer = () => {
 					variants={slideIn('left', 'tween', 0.5, 1)}
 					key={index}
 					className='w-full'>
-					<Tilt
+					<motion.div
 						options={{
 							max: 45,
 							scale: 1,
@@ -58,7 +56,7 @@ const Footer = () => {
 								</p>
 							))}
 						</div>
-					</Tilt>
+					</motion.div>
 				</motion.div>
 			))}
 		</div>
