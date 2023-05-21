@@ -41,7 +41,10 @@ import adobexd from './tech/adobexd.png';
 import project5 from './images/portfolio/project5.png';
 import facebook from './socialIcons/facebook.png';
 
+import Resume from './Resume.pdf';
+
 export {
+	Resume,
 	linkedin,
 	facebook,
 	music_app,
