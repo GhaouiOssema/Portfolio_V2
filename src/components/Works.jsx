@@ -92,7 +92,7 @@ const Works = () => {
 					<br />
 					<div>
 						<a
-							href='src\assets\Resume.pdf'
+							href='../assets/Resume.pdf'
 							title='Download CV'
 							className={styles.downloadCvStyle}
 							target='_blank'>
