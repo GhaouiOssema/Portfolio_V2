@@ -64,41 +64,35 @@ const FeedbackCard = ({
 								</span>
 							</>
 						) : eduType === "Certification Degree's" ? (
-							<div className='flex w-[340px] justify-between'>
-								<div className='flex items-center'>
+							name.map((item, index) => (
+								<div className='inline-block ml-2' key={index}>
 									<span className='blue-text-gradient'>
 										@
 									</span>
 									<span
 										className='hover:underline'
 										onClick={() =>
-											window.open(link[0], '_blank')
+											window.open(link[index], '_blank')
 										}>
-										{name[0]}
+										{item}
 									</span>
 								</div>
-								<div className='flex'>
-									<span className='blue-text-gradient'>
-										@
-									</span>
-									<span
-										className='hover:underline'
-										onClick={() =>
-											window.open(link[1], '_blank')
-										}>
-										{name[1]}
-									</span>
-								</div>
-							</div>
+							))
 						) : eduType === "Scholarship Degree's" ? (
-							<div className='flex'>
-								<span className='blue-text-gradient'>@</span>
-								<span
-									className='hover:underline'
-									onClick={() => window.open(link, '_blank')}>
-									{name}
-								</span>
-							</div>
+							name.map((item, index) => (
+								<div className='inline-block ml-2' key={index}>
+									<span className='blue-text-gradient'>
+										@
+									</span>
+									<span
+										className='hover:underline'
+										onClick={() =>
+											window.open(link[index], '_blank')
+										}>
+										{item}
+									</span>
+								</div>
+							))
 						) : (
 							name
 						)}
@@ -107,7 +101,8 @@ const FeedbackCard = ({
 						</p>
 					</p>
 				</div>
-				{eduType === "Certification Degree's" ? (
+				{eduType === "Certification Degree's" ||
+				eduType === "Scholarship Degree's" ? (
 					image.map((image, index) => (
 						<img
 							key={index}

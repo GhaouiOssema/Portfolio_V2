@@ -201,10 +201,20 @@ const testimonials = [
 	{
 		eduType: "Scholarship Degree's",
 		course: "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-		name: 'Coursera',
-		courses: ['Google Data Analytics', 'Google UX Design'],
-		image: 'https://upload.wikimedia.org/wikipedia/commons/9/97/Coursera-Logo_600x600.svg',
-		link: 'https://www.coursera.org/?irclickid=2uMwywV%3AFxyIUwtQopym208zUkATlLzb1xxvTk0&irgwc=1&utm_medium=partners&utm_source=impact&utm_campaign=2985301&utm_content=b2c',
+		name: ['Coursera', 'DataCamp'],
+		courses: [
+			'Google Data Analytics Professional Certificate',
+			'Google UX Design Professional Certificate',
+			'SQL FUNDAMENTALS (6 COURSES)',
+		],
+		image: [
+			'https://upload.wikimedia.org/wikipedia/commons/9/97/Coursera-Logo_600x600.svg',
+			'https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/hq30ze9287y9ztkmcdhy',
+		],
+		link: [
+			'https://www.coursera.org/?irclickid=2uMwywV%3AFxyIUwtQopym208zUkATlLzb1xxvTk0&irgwc=1&utm_medium=partners&utm_source=impact&utm_campaign=2985301&utm_content=b2c',
+			'https://www.datacamp.com/',
+		],
 	},
 ];
 
