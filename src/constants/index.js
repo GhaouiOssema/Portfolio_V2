@@ -178,7 +178,7 @@ const testimonials = [
 		name: 'SESAME University',
 		image: sesame,
 		date: '2022 -- 2025',
-		link: 'https://universitesesame.com/wp-content/uploads/2020/09/Logos-Sesame-13.png',
+		link: 'https://universitesesame.com/',
 	},
 	{
 		eduType: "Certification Degree's",
