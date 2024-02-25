@@ -36,6 +36,7 @@ import {
     java,
     project6,
     project8,
+    material_ui,
 } from "../assets";
 
 export const navLinks = [
@@ -110,8 +111,8 @@ const technologies = [
         icon: mongodb,
     },
     {
-        name: "Three JS",
-        icon: threejs,
+        name: "Material UI",
+        icon: material_ui,
     },
     {
         name: "git",
@@ -216,7 +217,7 @@ const testimonials = [
         ],
         image: [
             "https://upload.wikimedia.org/wikipedia/commons/9/97/Coursera-Logo_600x600.svg",
-            "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/hq30ze9287y9ztkmcdhy",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTas7zxOANT4O-i9H--7LIsNAZQ5mPTqgX1kVvg3sfRGA&s",
         ],
         link: [
             "https://www.coursera.org/?irclickid=2uMwywV%3AFxyIUwtQopym208zUkATlLzb1xxvTk0&irgwc=1&utm_medium=partners&utm_source=impact&utm_campaign=2985301&utm_content=b2c",

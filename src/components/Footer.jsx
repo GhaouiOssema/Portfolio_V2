@@ -9,9 +9,9 @@ import { socialLink } from "../constants/iconsURL";
 
 const Footer = () => {
     return (
-        <div className={`mt-12 bg-black-100 rounded-[20px]`} id="education">
+        <div className={`mt-20 bg-black-100 rounded-[20px]`} id="education">
             <div
-                className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}>
+                className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[270px]`}>
                 <motion.div variants={textVariant()}>
                     <h2 className={styles.sectionHeadText}>Connect with Me.</h2>
                 </motion.div>
@@ -29,11 +29,6 @@ const Footer = () => {
                                 speed: 450,
                             }}
                             className="bg-tertiary p-5 rounded-2xl">
-                            <div className="mt-5">
-                                <h3 className="text-white font-bold text-[24px] text-center">
-                                    {account.name}
-                                </h3>
-                            </div>
                             <br />
                             <div className="flex justify-center items-center">
                                 {account.Icons.map((item, i) => (

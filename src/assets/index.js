@@ -41,3 +41,4 @@ export { default as tesla } from "./company/tesla.png";
 export { default as carrent } from "./carrent.png";
 export { default as jobit } from "./jobit.png";
 export { default as tripguide } from "./tripguide.png";
+export { default as material_ui } from "./material-ui.png";
