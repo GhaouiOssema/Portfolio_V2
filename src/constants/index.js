@@ -35,6 +35,7 @@ import {
     facebook,
     java,
     project6,
+    project8,
 } from "../assets";
 
 export const navLinks = [
@@ -355,6 +356,32 @@ const projects = [
         ],
         image: project6,
         source_code_link: "https://github.com/GhaouiOssema/OPEN_CV_USING_JAVA",
+        type: "web",
+    },
+    {
+        name: "Reclamation web app using voice",
+        description:
+            "Revolutionizing reclamation forms with a web app that allows users to submit and interact with reclamation information using voice recordings",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "material-ui",
+                color: "green-text-gradient",
+            },
+            {
+                name: "nodejs",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "mongodb",
+                color: "purple-text-gradient",
+            },
+        ],
+        image: project8,
+        source_code_link: "https://github.com/GhaouiOssema/PFA",
         type: "web",
     },
 ];

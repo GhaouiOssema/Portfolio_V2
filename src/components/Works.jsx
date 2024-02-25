@@ -57,14 +57,14 @@ const ProjectCard = ({
                     <h3 className="text-white font-bold text-[20px]">{name}</h3>
                     <p className="mt-2 text-secondary text-[13px]">
                         {description}
-                        <div className="flex flex-wrap gap-2 mt-2">
+                        <div className="flex justify-start items-center flex-wrap mt-2 w-full">
                             {apps && (
                                 <>
                                     {apps.map((app, idx) => (
                                         <div
                                             key={idx}
-                                            className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mb-2 mr-2">
-                                            {app}
+                                            className="text-[10px] font-semibold inline-block bg-gray-200 rounded-md px-1 py-1 text-gray-700 mb-2 mr-2">
+                                            <span>{app}</span>
                                         </div>
                                     ))}
                                 </>

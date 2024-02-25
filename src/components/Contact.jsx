@@ -30,7 +30,7 @@ const SuccessSnackbars = ({ open, setOpen, error }) => {
             <Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
                 <Alert
                     onClose={handleClose}
-                    severity="success"
+                    severity="info"
                     variant="filled"
                     sx={{ width: "100%" }}>
                     {error

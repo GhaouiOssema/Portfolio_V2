@@ -1,91 +1,43 @@
-import logo from "./logo.svg";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
-import github from "./github.png";
-import menu from "./menu.svg";
-import close from "./close.svg";
-
-import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
-import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
-
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-import linkedin from "./socialIcons/linkedin.png";
-import sass from "./tech/sass.png";
-import logo_letter from "./logo_letter.png";
-import code_tag from "./socialIcons/code_tag.png";
-import company_icon from "./images/company_icon.png";
-import project2 from "./images/portfolio/project2.png";
-import music_app from "./images/portfolio/music_app.png";
-import project3 from "./images/portfolio/project3.jpg";
-import adobexd from "./tech/adobexd.png";
-import project5 from "./images/portfolio/project5.png";
-import facebook from "./socialIcons/facebook.png";
-
-import Resume from "./oussema_ghaoui_cv.pdf";
-import java from "./java.png";
-import project6 from "./images/portfolio/project6.jpg";
-
-export {
-	project6,
-    java,
-    Resume,
-    linkedin,
-    facebook,
-    music_app,
-    project5,
-    adobexd,
-    company_icon,
-    project2,
-    project3,
-    code_tag,
-    logo_letter,
-    logo,
-    sass,
-    backend,
-    creator,
-    mobile,
-    web,
-    github,
-    menu,
-    close,
-    css,
-    docker,
-    figma,
-    git,
-    html,
-    javascript,
-    mongodb,
-    nodejs,
-    reactjs,
-    redux,
-    tailwind,
-    typescript,
-    threejs,
-    meta,
-    shopify,
-    starbucks,
-    tesla,
-    carrent,
-    jobit,
-    tripguide,
-};
+export { default as project8 } from "./images/portfolio/project8.png";
+export { default as project6 } from "./images/portfolio/project6.jpg";
+export { default as java } from "./java.png";
+export { default as Resume } from "./oussema_ghaoui_cv.pdf";
+export { default as linkedin } from "./socialIcons/linkedin.png";
+export { default as facebook } from "./socialIcons/facebook.png";
+export { default as music_app } from "./images/portfolio/music_app.png";
+export { default as project5 } from "./images/portfolio/project5.png";
+export { default as adobexd } from "./tech/adobexd.png";
+export { default as company_icon } from "./images/company_icon.png";
+export { default as project2 } from "./images/portfolio/project2.png";
+export { default as project3 } from "./images/portfolio/project3.jpg";
+export { default as code_tag } from "./socialIcons/code_tag.png";
+export { default as logo_letter } from "./logo_letter.png";
+export { default as logo } from "./logo.svg";
+export { default as sass } from "./tech/sass.png";
+export { default as backend } from "./backend.png";
+export { default as creator } from "./creator.png";
+export { default as mobile } from "./mobile.png";
+export { default as web } from "./web.png";
+export { default as github } from "./github.png";
+export { default as menu } from "./menu.svg";
+export { default as close } from "./close.svg";
+export { default as css } from "./tech/css.png";
+export { default as docker } from "./tech/docker.png";
+export { default as figma } from "./tech/figma.png";
+export { default as git } from "./tech/git.png";
+export { default as html } from "./tech/html.png";
+export { default as javascript } from "./tech/javascript.png";
+export { default as mongodb } from "./tech/mongodb.png";
+export { default as nodejs } from "./tech/nodejs.png";
+export { default as reactjs } from "./tech/reactjs.png";
+export { default as redux } from "./tech/redux.png";
+export { default as tailwind } from "./tech/tailwind.png";
+export { default as typescript } from "./tech/typescript.png";
+export { default as threejs } from "./tech/threejs.svg";
+export { default as meta } from "./company/meta.png";
+export { default as shopify } from "./company/shopify.png";
+export { default as starbucks } from "./company/starbucks.png";
+export { default as tesla } from "./company/tesla.png";
+export { default as carrent } from "./carrent.png";
+export { default as jobit } from "./jobit.png";
+export { default as tripguide } from "./tripguide.png";
