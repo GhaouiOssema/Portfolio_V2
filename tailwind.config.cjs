@@ -5,13 +5,22 @@ module.exports = {
     theme: {
         extend: {
             keyframes: {
-                typing: {
+                typingMobile: {
                     "0%": {
                         width: "0%",
                         visibility: "hidden",
                     },
                     "100%": {
                         width: "60%",
+                    },
+                },
+                typing: {
+                    "0%": {
+                        width: "0%",
+                        visibility: "hidden",
+                    },
+                    "100%": {
+                        width: "100%",
                     },
                 },
                 blink: {
@@ -25,6 +34,8 @@ module.exports = {
             },
             animation: {
                 typing: "typing 2s steps(20) infinite alternate, blink .7s infinite",
+                typingMobile:
+                    "typingMobile 2s steps(20) infinite alternate, blink .7s infinite",
             },
             colors: {
                 primary: "#050816",

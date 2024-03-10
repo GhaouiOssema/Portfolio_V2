@@ -14,8 +14,8 @@ const Footer = () => {
                 className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[270px]`}>
                 <motion.div variants={textVariant()}>
                     <h2
-                        className={`${styles.sectionHeadText} animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5`}>
-                        Connect with Me.
+                        className={`${styles.sectionHeadText} md:animate-typingMobile animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5`}>
+                        Connect with <span className="text-[#915EFF]">Me.</span>
                     </h2>
                 </motion.div>
             </div>
