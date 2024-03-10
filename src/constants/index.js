@@ -191,24 +191,26 @@ const testimonials = [
     {
         eduType: "Certification Degree's",
         courses: [
-            "Web Development",
+            "UX Design - GO MY CODE",
             "UX / UI Design",
             "Game Development",
-            "Full Stack JS Development ( MERN Stack )",
+            "Full Stack JS Development - MERN Stack",
+            "IT Specialist - JavaScript - Microsoft ITS",
         ],
-        name: ["Udemy Online Courses", "GO MY CODE"],
+        name: ["Udemy Online Courses", "GO MY CODE", "Certiport"],
         image: [
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuyVL7UoU4rtI4u9Pd_KOhzyPNZWen8uCIIrHQkQK8kA&s",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAlPUXWaCRmI2WNFMa32gsgsRwKHO60isgG5QFOpZZ&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRjOwwgloDldejImMW401RXangrdoSo-quclupFkMz_g&s",
+            "https://certiport.pearsonvue.com/getattachment/e98b7d7b-186c-45ec-8fb0-d33281fcf9c9/Compass-Logo-030518-768x763.png?lang=en-US&width=300&height=298&ext=.png",
         ],
         link: [
             "https://www.udemy.com/?utm_term=Homepage&utm_content=Banner&utm_campaign=Udemy-14Jul21&ranMID=39197&ranEAID=Z24g%2FO8uH8A&ranSiteID=Z24g_O8uH8A-.jVTKtcGM4fkCycl_esKlw&LSNPUBID=Z24g%2FO8uH8A&utm_source=aff-campaign&utm_medium=udemyads",
             "https://gomycode.com/TN-FR/learn-now-pay-later?utm_term=&utm_campaign=SEA%7CSearch%7CTN%7CHM%7CWebdeveloper&utm_source=adwords&utm_medium=ppc&hsa_acc=5376939631&hsa_cam=17969079990&hsa_grp=140892437702&hsa_ad=635438092962&hsa_src=g&hsa_tgt=dsa-1892103243530&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjw27mhBhC9ARIsAIFsETFSqCgsdj-pmJ8ip5kQsr111ICViiaNO9CwsDoLk3_lV1Rhv4dND4QaAtL-EALw_wcB",
+            "https://certiport.pearsonvue.com/Certifications/ITSpecialist/Certification/Overview",
         ],
     },
     {
         eduType: "Scholarship Degree's",
-        course: "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
         name: ["Coursera", "DataCamp"],
         courses: [
             "Google Data Analytics Professional Certificate",
@@ -389,7 +391,6 @@ const projects = [
 
 const socialMediaIcons = [
     {
-        name: "Social Media Account",
         tags: [
             {
                 name: "react",

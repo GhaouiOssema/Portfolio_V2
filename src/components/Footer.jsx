@@ -5,7 +5,7 @@ import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { socialMediaIcons } from "../constants";
 import { fadeIn, slideIn, textVariant } from "../utils/motion";
-import { socialLink } from "../constants/iconsURL";
+import { socialLink } from "../constants/webLinks";
 
 const Footer = () => {
     return (
@@ -13,7 +13,10 @@ const Footer = () => {
             <div
                 className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[270px]`}>
                 <motion.div variants={textVariant()}>
-                    <h2 className={styles.sectionHeadText}>Connect with Me.</h2>
+                    <h2
+                        className={`${styles.sectionHeadText} animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5`}>
+                        Connect with Me.
+                    </h2>
                 </motion.div>
             </div>
             <div
